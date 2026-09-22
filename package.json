@@ -106,7 +106,7 @@
 			"default": "./src/types.ts"
 		}
 	},
-	"repository": "https://github.com/teamgbg/bun-foundation-worker-pool.git",
+	"repository": "https://github.com/teamgbg/bun-foundation-worker-pool",
 	"publishConfig": {
 		"registry": "https://registry.npmjs.org"
 	}
