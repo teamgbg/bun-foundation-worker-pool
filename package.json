@@ -1,0 +1,113 @@
+{
+	"_generated": {
+		"system": "package-json@1.0.0",
+		"status": "generated",
+		"edit": "edit src/ — dependencies and exports derive from imports; everything else preserved"
+	},
+	"name": "@teamscala/worker-pool",
+	"capability": "Worker pool (createWorkerPool): unified multi-CPU dispatch primitive — Bun Worker pool with central registry, bounded queue, and auto-respawn. The single sanctioned worker-pool surface workspace-wide.",
+	"tier": "foundation",
+	"type": "module",
+	"version": "0.1.12",
+	"description": "Unified multi-CPU dispatch primitive — Bun Worker pool with central registry, bounded queue, and auto-respawn. The single sanctioned worker-pool surface workspace-wide.",
+	"sideEffects": false,
+	"imports": {
+		"#worker-pool/*": "./src/*",
+		"#worker-pool/*.ts": "./src/*.ts"
+	},
+	"files": [
+		"src"
+	],
+	"dependencies": {},
+	"devDependencies": {
+		"bun-types": "*",
+		"@happy-dom/global-registrator": "*",
+		"@testing-library/react": "*"
+	},
+	"exports": {
+		"./configure": {
+			"types": "./src/configure.d.ts",
+			"default": "./src/configure.ts"
+		},
+		"./configure.ts": {
+			"types": "./src/configure.d.ts",
+			"default": "./src/configure.ts"
+		},
+		"./crash-on-boot.worker": {
+			"types": "./src/crash-on-boot.worker.d.ts",
+			"default": "./src/crash-on-boot.worker.ts"
+		},
+		"./crash-on-boot.worker.ts": {
+			"types": "./src/crash-on-boot.worker.d.ts",
+			"default": "./src/crash-on-boot.worker.ts"
+		},
+		"./create-worker-pool": {
+			"types": "./src/create-worker-pool.d.ts",
+			"default": "./src/create-worker-pool.ts"
+		},
+		"./create-worker-pool.ts": {
+			"types": "./src/create-worker-pool.d.ts",
+			"default": "./src/create-worker-pool.ts"
+		},
+		"./dispatch-one-shot": {
+			"types": "./src/dispatch-one-shot.d.ts",
+			"default": "./src/dispatch-one-shot.ts"
+		},
+		"./dispatch-one-shot.ts": {
+			"types": "./src/dispatch-one-shot.d.ts",
+			"default": "./src/dispatch-one-shot.ts"
+		},
+		"./echo.worker": {
+			"types": "./src/echo.worker.d.ts",
+			"default": "./src/echo.worker.ts"
+		},
+		"./echo.worker.ts": {
+			"types": "./src/echo.worker.d.ts",
+			"default": "./src/echo.worker.ts"
+		},
+		"./errors": {
+			"types": "./src/errors.d.ts",
+			"default": "./src/errors.ts"
+		},
+		"./errors.ts": {
+			"types": "./src/errors.d.ts",
+			"default": "./src/errors.ts"
+		},
+		"./pool": {
+			"types": "./src/pool.d.ts",
+			"default": "./src/pool.ts"
+		},
+		"./pool.ts": {
+			"types": "./src/pool.d.ts",
+			"default": "./src/pool.ts"
+		},
+		"./registry": {
+			"types": "./src/registry.d.ts",
+			"default": "./src/registry.ts"
+		},
+		"./registry.ts": {
+			"types": "./src/registry.d.ts",
+			"default": "./src/registry.ts"
+		},
+		"./server-wrappers": {
+			"types": "./src/server-wrappers.d.ts",
+			"default": "./src/server-wrappers.ts"
+		},
+		"./server-wrappers.ts": {
+			"types": "./src/server-wrappers.d.ts",
+			"default": "./src/server-wrappers.ts"
+		},
+		"./types": {
+			"types": "./src/types.d.ts",
+			"default": "./src/types.ts"
+		},
+		"./types.ts": {
+			"types": "./src/types.d.ts",
+			"default": "./src/types.ts"
+		}
+	},
+	"repository": "https://github.com/teamgbg/bun-foundation-worker-pool.git",
+	"publishConfig": {
+		"registry": "https://registry.npmjs.org"
+	}
+}
